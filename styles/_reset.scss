@@ -1,0 +1,28 @@
+//  CSS Reset
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Variables and Fonts
+
+:root {
+  --black: #000;
+  --gray: #888;
+  --white: #fff;
+}
+
+*,
+input,
+button {
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  background: var(--black);
+  color: var(--gray);
+
+  font-size: 62.5%;
+}

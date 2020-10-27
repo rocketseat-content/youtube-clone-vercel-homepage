@@ -1,0 +1,62 @@
+header {
+  max-width: 104.8rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center; // Later
+  padding: 1.6rem 2.4rem; // Later
+
+  .left {
+    height: 2.6rem;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .middle ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    li a {
+      font-size: 1.4rem;
+      padding: 0.8rem 1.6rem;
+      color: var(--gray);
+      text-decoration: none;
+
+      & + a {
+        margin-left: 1.2rem;
+      }
+    }
+  }
+
+  .right {
+    margin-left: 0.8rem;
+
+    display: flex;
+    align-items: center;
+
+    .conf {
+      height: 3.2rem;
+      position: relative;
+
+      span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+
+        color: var(--white);
+        font-size: 1.4rem;
+        width: max-content;
+      }
+    }
+    .avatar {
+      margin-left: 0.8rem;
+      width: 3.2rem;
+      height: 3.2rem;
+    }
+  }
+}
